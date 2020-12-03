@@ -4,8 +4,8 @@ const Person = require('../../Person');
 exports.write = async ctx => {
 
     const jennifer = await Person.query().insert({
-        name: 'Jennifer',
-        age: 20
+        name: 'Jenniferss',
+        age: 200
     });
     ctx.body = "Created";
 
