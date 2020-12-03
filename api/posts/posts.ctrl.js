@@ -7,7 +7,7 @@ exports.write = async ctx => {
         name: 'Jenniferss',
         age: 200
     });
-    ctx.body = "Created";
+    ctx.body = "new Created";
 
 }
 
