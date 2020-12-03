@@ -1,0 +1,29 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsxqead/sample-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsxqead/sample-api/issues"
+  },
+  "homepage": "https://github.com/wsxqead/sample-api#readme",
+  "dependencies": {
+    "knex": "^0.21.12",
+    "koa": "^2.13.0",
+    "koa-body-parser": "^1.1.2",
+    "koa-router": "^10.0.0",
+    "mkdirp": "^1.0.4",
+    "mysql": "^2.18.1",
+    "objection": "^2.2.3",
+    "sqlite3": "^5.0.0"
+  }
+}
